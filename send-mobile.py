@@ -18,8 +18,8 @@ def send_message_example(content,tos):
     resp = requests.post(("http://hy6.nbark.com:7602/sms.aspx?action=send"),
                          data={
                              "userid":"174",
-                             "account":"youzhongyxhy6",
-                             "password":"IXh9UT9KyhK8GcAZ0lJv",
+                             "account":"XXXXXXXXXXXXXX",
+                             "password":"XXXXXXXXXXXXXXX",
                              "mobile":tos,
                              "content":content,
                              "type":"json"
